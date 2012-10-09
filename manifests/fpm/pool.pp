@@ -26,7 +26,8 @@ define php::fpm::pool(
   $terminate_timeout = 0,
   $chroot = undef,
   $php_settings = undef,
-  $env_settings = undef
+  $env_settings = undef,
+  $catch_workers_output = undef
 ) {
   include php::fpm
 
