@@ -11,6 +11,7 @@ class php::params {
             $fpm_pool_dir = "${fpm_dir}pool.d/"
             $fpm_ini = "${fpm_dir}php.ini"
             $fpm_package_name = "php5-fpm"
+            $fpm_package_version = "present"
             $fpm_conf = "${fpm_dir}php-fpm.conf"
             $fpm_service_name = "php5-fpm"
             $apache_dir = "${base_dir}apache2/"
